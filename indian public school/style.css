@@ -1,0 +1,216 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: inter, sans-serif;
+
+}
+
+html,
+body {
+     height: 100%;
+     width: 100%;
+}
+
+.navbar {
+     padding: 0px 100px;
+     height: 7vw;
+     width: 100%;
+     background: #333333;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.logo {
+     height: 100%;
+     width: 100px;
+}
+
+.logo img {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}
+
+.nav-container {
+     height: 100%;
+     width: 40%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.nav-container a {
+     font-size: 20px;
+     text-decoration: none;
+     text-transform: capitalize;
+     color: #ffffff;
+}
+.nav-container a:hover{
+     opacity: 0.5;
+}
+
+.home-container {
+     height: 100vh;
+     padding: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background: rgb(128, 126, 126);
+}
+
+.home-text {
+     width: 45%;
+}
+
+.home-text h1 {
+     font-size: 60px;
+     font-weight: 500;
+     margin: 20px;
+     
+
+}
+
+.home-text p {
+     font-size: 20px;
+     font-weight: 500;
+
+}
+
+.home-image {
+     width: 50%;
+
+}
+.home-image:hover{
+     z-index: 1;
+     opacity: 0.5;
+}
+
+.home-image img {
+     height: 90%;
+     width: 100%;
+     border-radius: 20px;
+     object-fit: cover;
+}
+.about-section{
+     height: 100vh;
+     padding: 50px 50px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     background: #cccccc;
+    
+     
+}
+.about{
+     padding: 0px 20px;
+     margin: 20px 20px ;
+     width: 25%;
+     border: 2px solid black;
+     border-radius: 20px;
+     background: #232121;
+     color:#ffffff
+}
+ .about h2{
+     margin: 20px 0px;
+     color: #ffffff;
+}
+.vision{
+     border: 2px solid black;
+     margin: 20px 20px ;
+     border-radius: 20px;
+     width: 25%;
+     padding: 0px 20px;
+     background: #232121;
+     color:#ffffff;
+}
+.mission{
+     border: 2px solid black;
+     margin: 20px 20px ;
+     border-radius: 20px;
+     width: 25%;
+     padding: 0px 20px;
+     background: #232121;
+     color:#ffffff;
+}
+.mission h2{
+     margin: 20px 0px;
+}
+.vision h2{
+     margin: 20px 0px;
+}
+.education{
+     border: 2px solid black;
+     margin: 20px 20px ;
+     border-radius: 20px;
+     width: 25%;
+     padding: 0px 20px;
+     background: #232121;
+     color:#ffffff;
+}
+.education h2{
+     margin: 20px 0px;
+}
+.faculty{
+     border: 2px solid black;
+     border-radius: 20px;
+     margin: 20px 20px ;
+     width: 25%;
+     padding: 0px 20px;
+     background: #232121;
+     color:#ffffff;
+}
+.faculty h2{
+     margin: 20px 0px;
+}
+.Parental{
+     border: 2px solid black;
+     margin: 20px 20px ;
+     border-radius: 20px;
+     width: 25%;
+     padding: 0px 20px; 
+     background: #232121;
+     color:#ffffff;
+}
+.Parental h2{
+     font-size: 24px;
+     margin: 20px 0px;
+}
+p{
+     letter-spacing:0.1rem;
+}
+.acedamic-section{
+     height: 100vh;
+     width: 100%;
+     background: green;
+
+}
+.contact{
+     height: 70vh;
+     padding: 50px 100px;
+     width: 100%;
+     display: flex;
+     
+     justify-content: space-between;
+
+
+}
+.iteams{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.input{
+     display: flex;
+     padding: 50px;
+}
+.input span{
+     font-size: 20px;
+     font-weight: 500;
+     margin: 0px 20px;
+}
+#area{
+
+}

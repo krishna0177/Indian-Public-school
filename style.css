@@ -1,0 +1,327 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: inter, sans-serif;
+
+}
+
+html,
+body {
+     height: 100%;
+     width: 100%;
+}
+
+.navbar {
+     padding: 0px 100px;
+     height: 7vw;
+     width: 100%;
+     background: #333333;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.logo {
+     height: 100%;
+     width: 100px;
+}
+
+.logo img {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+}
+
+.nav-container {
+     height: 100%;
+     width: 40%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     overflow: hidden;
+}
+
+.nav-container a {
+     font-size: 20px;
+     text-decoration: none;
+     text-transform: capitalize;
+     color: #ffffff;
+}
+
+.nav-container a:hover {
+     opacity: 0.5;
+}
+
+
+.home-container {
+     height: 100vh;
+     padding: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background: rgb(128, 126, 126);
+     overflow: hidden;
+}
+
+.home-text {
+     width: 45%;
+}
+
+.home-text h1 {
+     font-size: 42px;
+     font-weight: 600;
+     margin: 20px;
+     color: #ffffff;
+
+
+}
+
+.home-text h3 {
+     font-size: 30px;
+     margin-bottom: 20px;
+}
+
+.home-text p {
+     font-size: 20px;
+     font-weight: 400;
+
+}
+
+.home-image {
+     width: 50%;
+     position: relative;
+
+}
+
+.home-image:hover {
+     z-index: 1;
+     opacity: 0.5;
+}
+
+.home-image img {
+     
+     width: 100%;
+     border-radius: 20px;
+     object-fit: cover;
+     background-position: cover;
+    
+}
+
+.about-section {
+     height: 100vh;
+     padding: 50px 50px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     background: #cccccc;
+     overflow: hidden;
+
+
+
+}
+
+.about {
+     padding: 0px 20px;
+     margin: 20px 20px;
+     width: 25%;
+     border-radius: 20px;
+     background: #767474;
+     color: black;
+     overflow: hidden;
+}
+
+.about h2 {
+     margin: 20px 0px;
+     color: #ffffff;
+}
+
+.vision {
+
+     margin: 20px 20px;
+     border-radius: 20px;
+     width: 25%;
+     padding: 0px 20px;
+     background: #232121;
+     color: #ffffff;
+}
+
+.mission {
+
+     margin: 20px 20px;
+     border-radius: 20px;
+     width: 25%;
+     padding: 0px 20px;
+     background: #232121;
+     color: #ffffff;
+}
+
+.mission h2 {
+     margin: 20px 0px;
+}
+
+.vision h2 {
+     margin: 20px 0px;
+}
+
+.education {
+
+     margin: 20px 20px;
+     border-radius: 20px;
+     width: 25%;
+     padding: 0px 20px;
+     background: #232121;
+     color: #ffffff;
+}
+
+.education h2 {
+     margin: 20px 0px;
+}
+
+.faculty {
+
+     border-radius: 20px;
+     margin: 20px 20px;
+     width: 25%;
+     padding: 0px 20px;
+     background: #232121;
+     color: #ffffff;
+}
+
+.faculty h2 {
+     margin: 20px 0px;
+}
+
+.Parental {
+     margin: 20px 20px;
+     border-radius: 20px;
+     width: 25%;
+     padding: 0px 20px;
+     background: #232121;
+     color: #ffffff;
+}
+
+.Parental h2 {
+     font-size: 24px;
+     margin: 20px 0px;
+}
+
+p {
+     letter-spacing: 0.1rem;
+     line-height: 1.2;
+}
+
+.acedamic-section {
+     height: 100vh;
+     width: 100%;
+     background: green;
+
+}
+
+.contact {
+     height: 70vh;
+     padding: 50px 100px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     background-color: #cccccc;
+
+
+}
+
+.iteams {
+     display: flex;
+     flex-direction: column;
+
+     justify-content: space-evenly;
+}
+
+.input {
+
+     padding: 50px;
+}
+
+.whatsapp a {
+     text-decoration: none;
+     font-size: 20px;
+     color: black;
+
+}
+
+.input span {
+
+     font-size: 20px;
+     font-weight: 500;
+     margin: 10px 20px;
+}
+
+#area {
+
+     border-radius: 20px;
+     padding: 20px;
+
+}
+
+#btn {
+     font-size: 20px;
+     height: 50px;
+     width: 150px;
+     border-radius: 50px;
+     background-color: #232121;
+     color: #ffffff;
+
+
+
+}
+
+#btn:hover {
+     background-color: #cccccc;
+     color: #232121;
+     transition-duration: 1s;
+
+}
+
+footer {
+     background-color: #333;
+     color: #fff;
+     padding: 20px;
+     text-align: center;
+}
+
+footer a {
+     color: #fff;
+     text-decoration: none;
+}
+
+/* Social media icons styling */
+.social-icons {
+     list-style: none;
+     padding: 0;
+     margin: 10px 0;
+}
+
+.social-icons li {
+     display: inline-block;
+     margin-right: 10px;
+}
+
+.social-icons a {
+     color: #fff;
+     font-size: 20px;
+}
+.acedamic-section{     
+     height: 100vh;
+     width: 100vw;
+     background: red;
+     padding: 5%;
+}
+.acedamic-section h1{
+     font-size: 36px;
+     font-weight: 700;
+     margin: 5vh 0;
+}
+.features{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
